@@ -241,6 +241,15 @@ p {
 }
 
 .haj-skor {
+  width: 100%;
+
+  .logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
   .avatari {
     list-style-type: none;
     margin: 0;
