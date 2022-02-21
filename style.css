@@ -14,9 +14,6 @@ body {
   padding: 0;
   background-color: #65caf8;
   font-family: "Helvetica Neue", sans-serif;
-  background-image: url("/assets/cloud.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 .container {
@@ -26,15 +23,28 @@ body {
 
 .lijevo {
   width: 33.33%;
+  background-color: black;
 }
 
 .desno {
+  display: flex;
+  align-items: start;
   box-sizing: border-box;
   padding: 1rem;
   height: 100vh;
   width: 66.66%;
+  background-image: url("/assets/cloud.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.desno p {
+
+.logo {
+  height: 75vh;
+  margin: 0 auto;
+}
+
+p {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   border-radius: 1rem;
@@ -76,7 +86,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: stretch;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
@@ -91,9 +101,9 @@ body {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 1.2rem;
+  padding: 1rem;
   font-family: "Bungee", cursive;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: rgba(0, 0, 0, 0.56);
 }
 .odgovori li .odgovor {
@@ -248,6 +258,15 @@ body {
 .haj-skor .avatari li .bodovi {
   flex-grow: 0;
   font-size: 2rem;
+}
+
+.ratio169 {
+  background-color: rgba(0, 0, 0, 0.13);
+  aspect-ratio: 16/9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
