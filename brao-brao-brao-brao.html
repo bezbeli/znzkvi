@@ -13,9 +13,17 @@
                 video
             </div>
             <div class="desno">
-                <img class="logo" src="assets/brao-brao.svg" alt="" >
+                <div class="typo" id="brao"></div>
             </div>
         </div>
+        <script src="scripts/vivus.min.js"></script>
+        <script>
+            new Vivus('brao', {
+                file: 'assets/brao-brao.svg',
+                type: 'oneByOne',
+                animTimingFunction: Vivus.EASE
+            });
+        </script>
     </body>
 </html>
 

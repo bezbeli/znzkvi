@@ -13,9 +13,17 @@
                 video
             </div>
             <div class="desno">
-                <img class="logo" src="assets/dobio-si-po-usima.svg" alt="" >
+                <div class="typo" id="pousima"></div>
             </div>
         </div>
+        <script src="scripts/vivus.min.js"></script>
+        <script>
+            new Vivus('pousima', {
+                file: 'assets/dobili-ste-po-usima.svg',
+                type: 'oneByOne',
+                animTimingFunction: Vivus.EASE
+            });
+        </script>
     </body>
 </html>
 

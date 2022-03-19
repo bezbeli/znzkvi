@@ -44,12 +44,17 @@ body {
   margin: 0 auto;
 }
 
+.typo {
+  height: 75vh;
+  margin: 0 auto;
+}
+
 p {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   border-radius: 1rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .header {
@@ -67,6 +72,12 @@ p {
 .header .avatari li, .header .joker li {
   list-style-type: none;
   text-align: center;
+}
+
+.joker-badge {
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+  margin: 0.5rem;
 }
 
 .badge {
@@ -110,7 +121,7 @@ p {
   display: flex;
   align-items: center;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .progress-wrapper {
