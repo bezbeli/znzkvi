@@ -289,26 +289,4 @@ p {
   z-index: -1;
 }
 
-#number {
-  position: absolute;
-  transform: translateX(1000px);
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 0.5s forwards;
-  animation-delay: 2s;
-}
-
-@-webkit-keyframes slide {
-  100% {
-    right: 0;
-    transform: translateX(0px);
-  }
-}
-@keyframes slide {
-  100% {
-    right: 0;
-    transform: translateX(0px);
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
